@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1da315d-a695-4f01-b859-1e7dfb359c83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Simple_1_Intro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ITVDN.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ITVDN.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/java/Part1_HelloAutomation/Sample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/chromedriver_76.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/chromedriver_84.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/chromedriver_85.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main/resources/chromedriver_92.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/Part1_HelloAutomation/Sample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/chromedriver_76.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/chromedriver_84.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../target/classes/chromedriver_85.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +28,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
   </component>
   <component name="RunManager">
     <configuration name="Sample" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -94,5 +71,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
