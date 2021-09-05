@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Time test Suite" verbose="1">\
+	<test name="Group Test">
+		<groups>
+			<run>
+				<include name="include-group"/>
+				<exclude name="exclude-group"/>
+<!--								<include name="include.*" />-->
+<!--								<exclude name="exclude.*" />-->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.itvdn.GroupTest"/>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Time test Suite" verbose="1">\
+	<test name="Simple Test">
+		<classes>
+			<class name="com.itvdn.AllBeforeAfterTest"/>
+		</classes>
+	</test>
+</suite>
