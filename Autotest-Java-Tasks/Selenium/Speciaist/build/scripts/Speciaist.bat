@@ -17,7 +17,7 @@
 @if "%DEBUG%" == "" @echo off
 @rem ##########################################################################
 @rem
-@rem  gradle_task startup script for Windows
+@rem  Speciaist startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -32,7 +32,7 @@ set APP_HOME=%DIRNAME%..
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_TASK_OPTS to pass JVM options to this script.
+@rem Add default JVM options here. You can also use JAVA_OPTS and SPECIAIST_OPTS to pass JVM options to this script.
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
@@ -67,20 +67,20 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\gradle_task.jar
+set CLASSPATH=%APP_HOME%\lib\Speciaist.jar
 
 
-@rem Execute gradle_task
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_TASK_OPTS%  -classpath "%CLASSPATH%" simple %*
+@rem Execute Speciaist
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SPECIAIST_OPTS%  -classpath "%CLASSPATH%" simple %*
 
 :end
 @rem End local scope for the variables with windows NT shell
 if "%ERRORLEVEL%"=="0" goto mainEnd
 
 :fail
-rem Set variable GRADLE_TASK_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable SPECIAIST_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
-if  not "" == "%GRADLE_TASK_EXIT_CONSOLE%" exit 1
+if  not "" == "%SPECIAIST_EXIT_CONSOLE%" exit 1
 exit /b 1
 
 :mainEnd
