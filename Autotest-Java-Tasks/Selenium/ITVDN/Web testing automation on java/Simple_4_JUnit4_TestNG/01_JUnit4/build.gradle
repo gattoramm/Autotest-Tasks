@@ -1,0 +1,23 @@
+// Плагины добавляют задачи в проект тем самым расширяя его возможности
+apply plugin: 'java'
+
+// Таким образом указывается версия java для проекта
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+//  Блок repositories означает, что сборка должна разрешать зависимости из Maven Central репозитория.
+repositories {
+    mavenCentral()
+}
+
+test {
+    ignoreFailures = true
+}
+
+//compile - обозначает доступность библиотеки во время компиляции
+//testCompile - обозначает зависимости, используемые для компиляции и запуска тестов, но не требуемые для компиляции и запуска кода проекта
+dependencies {
+    compile 'junit:junit:4.12'
+    compile 'org.hamcrest:hamcrest-all:1.3'
+    compile 'org.apache.commons:commons-io:1.3.2'
+}

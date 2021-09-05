@@ -1,0 +1,21 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useTestNG() {
+        useDefaultListeners = true
+        suites 'src/test/resources/testng_simple.xml'
+        includeGroups 'include-group'
+        excludeGroups 'exclude-group'
+    }
+}
+
+dependencies {
+    testCompile 'org.testng:testng:6.14.3'
+}

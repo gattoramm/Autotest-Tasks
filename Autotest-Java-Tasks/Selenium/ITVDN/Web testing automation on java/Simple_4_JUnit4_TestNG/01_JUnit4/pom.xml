@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!--	groupId - наименование организации или подразделения и обычно действуют такие же правила
+			как и при именовании пакетов в Java - записывают доменное имя организации или сайта проекта-->
+	<groupId>com.itvdn.web-testing-automation</groupId>
+	<!--	artifactId - название проекта-->
+	<artifactId>004_01_JUnit4</artifactId>
+	<version>1.0</version>
+
+	<!--	Тройкой groupId, artifactId, version (далее - GAV) можно однозначно идентифицировать jar файл приложения или библиотеки-->
+	<!--	GAV нашего проекта - com.itvdn.web-testing-automation:004_01_JUnit4:1.0-->
+	<name>junit4_Sample</name>
+
+	<!--	Свойства это переменные-->
+	<properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<!--	Зависимости — это те библиотеки, которые непосредственно используются в вашем проекте
+			для компиляции кода или его тестирования.-->
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+	</dependencies>
+
+	<!--	Тэг <build> не обязательный, т. к. существуют значения по умолчанию.
+			Этот раздел содержит информацию по самой сборке: где находятся исходные файлы, где ресурсы,
+			какие плагины используются.-->
+	<build>
+		<!--	Плагины используются самим Maven'ом при сборке проекта или для каких-то других целей-->
+		<plugins>
+			<!--	maven-surefire-plugin - плагин который запускает тесты и генерирует отчёты по результатам их выполнения.
+					По умолчанию отчёты сохраняются в ${basedir}/target/surefire-reports	и находятся в двух форматах - txt и xml.
+					maven-surefire-plugin содержит единственную цель surefire:test тесты можно писать используя как JUnit так и TestNG.-->
+
+			<!-- По умолчанию плагин запускает все файлы подходящие под шаблон-->
+			<!--			"**/Test*.java"		-->
+			<!--			"**/*Test.java"		-->
+			<!--			"**/*Tests.java"	-->
+			<!--			"**/*TestCase.java"	-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<includes>
+						<include>BasicsTest.java</include>
+					</includes>
+					<testFailureIgnore>true</testFailureIgnore>
+					<skip>true</skip>
+				</configuration>
+
+			</plugin>
+
+			<!--	maven-surefire-plugin предназначен для запуска модульных тестов, и если какой-либо из тестов завершится с ошибкой, сборка считается проваленной.-->
+
+			<!--	maven-failsafe-plugin предназначен для запуска тестов интеграции и в нем падения тестов не приведут к падению сборки.-->
+
+
+			<!-- По умолчанию плагин запускает все файлы подходящие под шаблон-->
+			<!--			"**/IT*.java"	-->
+			<!--			"**/*IT.java"	-->
+			<!--			"**/*ITCase.java"	-->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<includes>
+						<include>BasicsTest.java</include>
+					</includes>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>integration-test</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>

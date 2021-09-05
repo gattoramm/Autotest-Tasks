@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Time test Suite" verbose="1" parallel="methods" thread-count="2">\
+	<test name="Simple Test" group-by-instances="true">
+		<parameter name="test-name" value="test-method One"/>
+		<classes>
+			<class name="com.itvdn.Parallel.ParallelMethodTest"/>
+		</classes>
+	</test>
+</suite>
