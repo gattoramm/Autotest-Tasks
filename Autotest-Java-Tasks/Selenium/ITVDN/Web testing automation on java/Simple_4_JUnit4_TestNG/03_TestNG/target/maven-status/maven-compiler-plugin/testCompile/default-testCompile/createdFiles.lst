@@ -1,0 +1,9 @@
+com\itvdn\BasicsTest.class
+com\itvdn\MatchersTest.class
+com\itvdn\MatchersTest$2.class
+com\itvdn\MatchersTest$1.class
+com\itvdn\GroupTest.class
+com\itvdn\Parallel\ParallelMethodTest.class
+com\itvdn\AllBeforeAfterTest.class
+com\itvdn\Parallel\ParallelMethodTestTwo.class
+com\itvdn\ParameterizedTest.class

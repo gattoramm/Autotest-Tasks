@@ -9,7 +9,7 @@ public class ParameterizedTest {
 
     @Parameters({"suite-param"})
     @Test
-    public void prameterTestOne(@Optional("one") String param) {
+    public void parameterTestOne(@Optional("one") String param) {
         System.out.println("Test one suite param is: " + param);
     }
 

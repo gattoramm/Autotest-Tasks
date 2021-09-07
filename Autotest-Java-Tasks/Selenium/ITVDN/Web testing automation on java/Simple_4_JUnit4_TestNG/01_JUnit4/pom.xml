@@ -64,6 +64,9 @@
 					<includes>
 						<include>BasicsTest.java</include>
 					</includes>
+<!--					<excludes>-->
+<!--						<exclude>MatchersTest.java</exclude>-->
+<!--					</excludes>-->
 					<testFailureIgnore>true</testFailureIgnore>
 					<skip>true</skip>
 				</configuration>
