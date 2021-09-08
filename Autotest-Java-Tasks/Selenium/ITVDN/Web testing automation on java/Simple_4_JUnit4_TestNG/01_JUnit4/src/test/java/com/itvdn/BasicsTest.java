@@ -1,7 +1,9 @@
 package com.itvdn;
 
 import org.junit.*;
+
 import java.util.concurrent.TimeUnit;
+
 import static org.junit.Assert.fail;
 
 public class BasicsTest {
