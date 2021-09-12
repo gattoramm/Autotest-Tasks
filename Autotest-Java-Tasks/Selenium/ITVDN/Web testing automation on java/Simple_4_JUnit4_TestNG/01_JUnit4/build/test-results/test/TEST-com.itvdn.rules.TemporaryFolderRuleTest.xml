@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itvdn.rules.TemporaryFolderRuleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-12T13:39:03" hostname="USER" time="0.275">
+  <properties/>
+  <testcase name="createTempFile" classname="com.itvdn.rules.TemporaryFolderRuleTest" time="0.206"/>
+  <testcase name="createTempFolder" classname="com.itvdn.rules.TemporaryFolderRuleTest" time="0.067"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

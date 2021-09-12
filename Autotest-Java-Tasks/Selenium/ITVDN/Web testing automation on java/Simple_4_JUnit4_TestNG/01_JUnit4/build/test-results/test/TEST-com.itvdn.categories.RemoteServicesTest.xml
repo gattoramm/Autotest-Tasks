@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itvdn.categories.RemoteServicesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-12T13:39:03" hostname="USER" time="0.049">
+  <properties/>
+  <testcase name="anotherTest" classname="com.itvdn.categories.RemoteServicesTest" time="0.0"/>
+  <testcase name="aTest" classname="com.itvdn.categories.RemoteServicesTest" time="0.0"/>
+  <testcase name="anotherTest" classname="com.itvdn.categories.RemoteServicesTest" time="0.0"/>
+  <testcase name="aTest" classname="com.itvdn.categories.RemoteServicesTest" time="0.0"/>
+  <system-out><![CDATA[I'm also slow...
+I'm slow, because my class annotation says so!
+I'm also slow...
+I'm slow, because my class annotation says so!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

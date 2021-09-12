@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itvdn.categories.ClientTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-09-12T13:39:03" hostname="USER" time="0.054">
+  <properties/>
+  <testcase name="slowTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <testcase name="performanceTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <testcase name="fastTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <testcase name="fastTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <testcase name="slowTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <testcase name="performanceTest" classname="com.itvdn.categories.ClientTest" time="0.0"/>
+  <system-out><![CDATA[I'm a slow running test...
+I test performance and may therefore be slow...
+I run fast!
+I run fast!
+I'm a slow running test...
+I test performance and may therefore be slow...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

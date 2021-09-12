@@ -61,7 +61,7 @@ public class ParameterizedTest {
 		System.out.println("anotherParameter: " + anotherParameter);
 		
 		// такая комбинация будет падать по неведомой причине
-		if (aParameter == 2500 && anotherParameter == 1) {
+		if (aParameter == 2500 && anotherParameter == 10) {
 			throw new RuntimeException();
 		}
 	}

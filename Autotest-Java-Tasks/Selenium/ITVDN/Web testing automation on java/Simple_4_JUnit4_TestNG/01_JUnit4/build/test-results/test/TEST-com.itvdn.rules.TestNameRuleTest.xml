@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itvdn.rules.TestNameRuleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-09-12T13:39:04" hostname="USER" time="0.007">
+  <properties/>
+  <testcase name="anotherTest" classname="com.itvdn.rules.TestNameRuleTest" time="0.006"/>
+  <testcase name="aTest" classname="com.itvdn.rules.TestNameRuleTest" time="0.001"/>
+  <system-out><![CDATA[Starting anotherTest...
+Running anotherTest...
+Done with anotherTest!
+Starting aTest...
+Running aTest...
+Done with aTest!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

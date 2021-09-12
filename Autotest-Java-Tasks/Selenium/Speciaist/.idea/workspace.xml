@@ -4,7 +4,98 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12747318-455f-4119-b442-d34558138b30" name="Changes" comment="" />
+    <list default="true" id="12747318-455f-4119-b442-d34558138b30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/modules/01_JUnit4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/004_01_JUnit4-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/BasicsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/MatchersTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/ParameterizedTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/ClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/RemoteServicesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/categoriesMarker/IntegrationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/categoriesMarker/PerformanceTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/categoriesMarker/SlowTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/suites/FastTestsSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/categories/suites/SlowTestsSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/rules/ErrorCollectorRuleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/rules/ExpectedExceptionRuleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/rules/TemporaryFolderRuleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/target/test-classes/com/itvdn/rules/TestNameRuleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sandbox/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Autotest-Java-Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/7.0/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/src/test/java/com/itvdn/BasicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/src/test/java/com/itvdn/BasicsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/src/test/java/com/itvdn/ParameterizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/01_JUnit4/src/test/java/com/itvdn/ParameterizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/modules/02_JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/.idea/modules/02_JUnit5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/target/surefire-reports/TEST-com.itvdn.categories.TaggedTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/target/surefire-reports/TEST-com.itvdn.categories.TaggedTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/target/surefire-reports/com.itvdn.categories.TaggedTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ITVDN/Web testing automation on java/Simple_4_JUnit4_TestNG/02_JUnit5/target/surefire-reports/com.itvdn.categories.TaggedTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,5 +177,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

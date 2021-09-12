@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.itvdn.ParameterizedTest" tests="30" skipped="0" failures="1" errors="0" timestamp="2021-09-12T13:39:03" hostname="USER" time="0.314">
+  <properties/>
+  <testcase name="parameterized[0]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[1]" classname="com.itvdn.ParameterizedTest" time="0.001"/>
+  <testcase name="parameterized[2]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[3]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[4]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[5]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[6]" classname="com.itvdn.ParameterizedTest" time="0.015"/>
+  <testcase name="parameterized[7]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[8]" classname="com.itvdn.ParameterizedTest" time="0.001"/>
+  <testcase name="parameterized[9]" classname="com.itvdn.ParameterizedTest" time="0.004"/>
+  <testcase name="parameterized[10]" classname="com.itvdn.ParameterizedTest" time="0.008"/>
+  <testcase name="parameterized[11]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[12]" classname="com.itvdn.ParameterizedTest" time="0.001"/>
+  <testcase name="parameterized[13]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[14]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[15]" classname="com.itvdn.ParameterizedTest" time="0.002"/>
+  <testcase name="parameterized[16]" classname="com.itvdn.ParameterizedTest" time="0.0"/>
+  <testcase name="parameterized[17]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[18]" classname="com.itvdn.ParameterizedTest" time="0.045"/>
+  <testcase name="parameterized[19]" classname="com.itvdn.ParameterizedTest" time="0.004"/>
+  <testcase name="parameterized[20]" classname="com.itvdn.ParameterizedTest" time="0.005"/>
+  <testcase name="parameterized[21]" classname="com.itvdn.ParameterizedTest" time="0.041">
+    <failure message="java.lang.RuntimeException" type="java.lang.RuntimeException">java.lang.RuntimeException
+	at com.itvdn.ParameterizedTest.parameterized(ParameterizedTest.java:65)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="parameterized[22]" classname="com.itvdn.ParameterizedTest" time="0.01"/>
+  <testcase name="parameterized[23]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[24]" classname="com.itvdn.ParameterizedTest" time="0.004"/>
+  <testcase name="parameterized[25]" classname="com.itvdn.ParameterizedTest" time="0.005"/>
+  <testcase name="parameterized[26]" classname="com.itvdn.ParameterizedTest" time="0.003"/>
+  <testcase name="parameterized[27]" classname="com.itvdn.ParameterizedTest" time="0.005"/>
+  <testcase name="parameterized[28]" classname="com.itvdn.ParameterizedTest" time="0.001"/>
+  <testcase name="parameterized[29]" classname="com.itvdn.ParameterizedTest" time="0.022"/>
+  <system-out><![CDATA[aParameter: 0
+anotherParameter: 1
+aParameter: 0
+anotherParameter: 10
+aParameter: 0
+anotherParameter: 250
+aParameter: 0
+anotherParameter: 2500
+aParameter: 0
+anotherParameter: 10000
+aParameter: 1
+anotherParameter: 1
+aParameter: 1
+anotherParameter: 10
+aParameter: 1
+anotherParameter: 250
+aParameter: 1
+anotherParameter: 2500
+aParameter: 1
+anotherParameter: 10000
+aParameter: 10
+anotherParameter: 1
+aParameter: 10
+anotherParameter: 10
+aParameter: 10
+anotherParameter: 250
+aParameter: 10
+anotherParameter: 2500
+aParameter: 10
+anotherParameter: 10000
+aParameter: 250
+anotherParameter: 1
+aParameter: 250
+anotherParameter: 10
+aParameter: 250
+anotherParameter: 250
+aParameter: 250
+anotherParameter: 2500
+aParameter: 250
+anotherParameter: 10000
+aParameter: 2500
+anotherParameter: 1
+aParameter: 2500
+anotherParameter: 10
+aParameter: 2500
+anotherParameter: 250
+aParameter: 2500
+anotherParameter: 2500
+aParameter: 2500
+anotherParameter: 10000
+aParameter: 10000
+anotherParameter: 1
+aParameter: 10000
+anotherParameter: 10
+aParameter: 10000
+anotherParameter: 250
+aParameter: 10000
+anotherParameter: 2500
+aParameter: 10000
+anotherParameter: 10000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
