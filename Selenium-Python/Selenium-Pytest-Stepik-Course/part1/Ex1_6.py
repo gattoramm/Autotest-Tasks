@@ -8,15 +8,16 @@ import time
     Используемые селекторы должны быть уникальны
 """
 
+# link = "http://suninjuly.github.io/registration1.html"
+link = "http://suninjuly.github.io/registration1.html"
+firstname = "firstname"
+lastname = "lastname"
+email = "mail321@123mail.com"
+asserted_text = "Congratulations! You have successfully registered!"
+
+browser = webdriver.Chrome()
 
 try:
-    # link = "http://suninjuly.github.io/registration1.html"
-    link = "http://suninjuly.github.io/registration1.html"
-    firstname = "firstname"
-    lastname = "lastname"
-    email = "mail321@123mail.com"
-
-    browser = webdriver.Chrome()
     browser.get(link)
 
     # заполняем поля
@@ -29,16 +30,16 @@ try:
 
     # Проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
-    time.sleep(2)
+    time.sleep(1)
 
     # записываем в переменную welcome_text текст из элемента
     welcome_text = browser.find_element(By.TAG_NAME, "h1").text
 
     # проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-    assert "Congratulations! You have successfully registered!" == welcome_text
+    assert asserted_text == welcome_text
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
-    time.sleep(2)
+    time.sleep(1)
     # закрываем браузер после всех манипуляций
     browser.quit()
