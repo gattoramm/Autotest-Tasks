@@ -14,10 +14,11 @@ import math
     Нажать на кнопку "Submit".
 """
 
-try:
-    link = "http://SunInJuly.github.io/execute_script.html"
+link = "http://SunInJuly.github.io/execute_script.html"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
     # определяем значение переменной
@@ -44,10 +45,12 @@ try:
 
     # Проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
-    time.sleep(2)
+    time.sleep(1)
 
     # Получает ответ
     print(browser.switch_to.alert.text.split()[-1])
+
+    browser.switch_to.alert.accept()
 
 except Exception as error:
     print(f'Trace error: {error}')

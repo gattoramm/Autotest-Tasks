@@ -9,13 +9,15 @@ import time
     Нажать кнопку "Submit"
 """
 
-try:
-    # link = "http://suninjuly.github.io/selects1.html"
-    link = "http://suninjuly.github.io/selects2.html"
+# link = "http://suninjuly.github.io/selects1.html"
+link = "http://suninjuly.github.io/selects2.html"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
+    # определяем числа
     first_num = int(browser.find_element(By.ID, "num1").text)
     second_num = int(browser.find_element(By.ID, "num2").text)
 
@@ -35,6 +37,8 @@ try:
 
     # Получает ответ
     print(browser.switch_to.alert.text.split()[-1])
+
+    browser.switch_to.alert.accept()
 
 except Exception as error:
     print(f'Trace error: {error}')

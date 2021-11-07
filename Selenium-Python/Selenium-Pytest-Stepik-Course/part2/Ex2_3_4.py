@@ -10,10 +10,11 @@ import math
     На новой странице решить капчу для роботов, чтобы получить число с ответом
 """
 
-try:
-    link = "http://suninjuly.github.io/alert_accept.html"
+link = "http://suninjuly.github.io/alert_accept.html"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
     # нажимаем кнопку
@@ -37,15 +38,18 @@ try:
 
     # проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
-    time.sleep(2)
+    time.sleep(1)
 
     # Получает ответ
     print(browser.switch_to.alert.text.split()[-1])
+
+    browser.switch_to.alert.accept()
+
 except Exception as error:
     print(f'Trace error: {error}')
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
-    time.sleep(2)
+    time.sleep(1)
     # закрываем браузер после всех манипуляций
     browser.quit()

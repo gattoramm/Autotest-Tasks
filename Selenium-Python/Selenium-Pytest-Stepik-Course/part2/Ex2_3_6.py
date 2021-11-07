@@ -10,10 +10,11 @@ import math
     Пройти капчу для робота и получить число-ответ
 """
 
-try:
-    link = "http://suninjuly.github.io/redirect_accept.html"
+link = "http://suninjuly.github.io/redirect_accept.html"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
     # нажимаем кнопку
@@ -40,6 +41,9 @@ try:
 
     # Получает ответ
     print(browser.switch_to.alert.text.split()[-1])
+
+    browser.switch_to.alert.accept()
+
 except Exception as error:
     print(f'Trace error: {error}')
 

@@ -10,13 +10,14 @@ import os
     Нажать кнопку "Submit"
 """
 
-try:
-    link = "http://suninjuly.github.io/file_input.html"
-    firstname = "firstname"
-    lastname = "lastname"
-    email = "mail321@123mail.com"
+link = "http://suninjuly.github.io/file_input.html"
+firstname = "firstname"
+lastname = "lastname"
+email = "mail321@123mail.com"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
     # заполняем поля
@@ -40,6 +41,9 @@ try:
 
     # Получает ответ
     print(browser.switch_to.alert.text.split()[-1])
+
+    browser.switch_to.alert.accept()
+
 except Exception as error:
     print(f'Trace error: {error}')
 

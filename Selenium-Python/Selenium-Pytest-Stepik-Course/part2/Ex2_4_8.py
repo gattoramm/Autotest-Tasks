@@ -12,11 +12,12 @@ import math
     Решить уже известную нам математическую задачу (используйте ранее написанный код) и отправить решение
 """
 
-try:
-    link = "http://suninjuly.github.io/explicit_wait2.html"
-    whaiting_price = "$100"
+link = "http://suninjuly.github.io/explicit_wait2.html"
+whaiting_price = "$100"
 
-    browser = webdriver.Chrome()
+browser = webdriver.Chrome()
+
+try:
     browser.get(link)
 
     # ожидаем нужной цены
