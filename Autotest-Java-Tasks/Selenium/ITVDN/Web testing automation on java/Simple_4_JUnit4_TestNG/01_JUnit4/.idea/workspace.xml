@@ -10,6 +10,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../02_JUnit5/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../02_JUnit5/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_TestNG/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_TestNG/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../Speciaist/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../Speciaist/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Simple_1_Intro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Simple_1_Intro/.idea/misc.xml" afterDir="false" />
@@ -38,6 +40,8 @@
       <change beforePath="$PROJECT_DIR$/../02_JUnit5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_JUnit5/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02_JUnit5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_JUnit5/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02_JUnit5/.idea/modules/02_JUnit5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_JUnit5/.idea/modules/02_JUnit5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_TestNG/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_TestNG/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_TestNG/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_TestNG/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Sandbox/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
