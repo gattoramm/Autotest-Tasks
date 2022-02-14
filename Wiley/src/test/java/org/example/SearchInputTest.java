@@ -41,7 +41,7 @@ public class SearchInputTest {
     @Test
     public void inputInSearchFieldWord() {
         String word = ConfProperties.getPropertyString("magicword");
-        searchInput.getSearchLocator().sendKeys(word);
+        searchInput.setSearchLocator(word);
 
         List<WebElement> searchResultField = searchInput.getSearchResultSection();
 

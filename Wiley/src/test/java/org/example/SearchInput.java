@@ -27,6 +27,10 @@ public class SearchInput {
         return searchLocator;
     }
 
+    public void setSearchLocator(String word) {
+        this.getSearchLocator().sendKeys(word);
+    }
+
     // locator: search result field
     @FindBy(xpath = "//*[@id=\"ui-id-2\"]")
     private WebElement searchResultLocator;
