@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Simple_1_Intro" />
-        <module name="ITVDN" />
+        <module name="WileyTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WileyTest" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
